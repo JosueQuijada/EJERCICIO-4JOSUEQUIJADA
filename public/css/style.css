@@ -1,0 +1,47 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header h1 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    header h3 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    nav {
+        background-color: #D6AFDC;
+        height: 100px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    li {
+        float: left;
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    li a {
+        color: white;
+        display: block;
+        text-decoration: none;
+        min-width: 100px;
+    }
+    
+    li a:hover {
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+    }
